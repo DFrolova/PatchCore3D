@@ -3,10 +3,10 @@
 This repository contains the implementation for the paper 'Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images'. 
 
 The main results of the paper:
-![results](images/table.png)
+![results](images/table_results.png)
 
 Visualization of the predictions of PatchCore3D and PatchCore3D pipelines compared to other methods.
-![visualization](images/vis.png)
+![visualization](images/visualization.png)
 
 This repo uses code from: 
 1. <https://github.com/amazon-science/patchcore-inspection> with basic PatchCore method implementation;
