@@ -1,6 +1,6 @@
 # Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images
 
-This repository contains the implementation for the paper 'Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images'. 
+This repository contains the implementation for the paper 'Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images', which was accepted to the MICCAI 2023 UNSURE workshop.
 
 The main results of the paper:
 ![results](images/table_results.png)
