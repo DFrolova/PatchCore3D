@@ -1,6 +1,6 @@
 # Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images
 
-This repository contains the implementation for the paper 'Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images', which was accepted to the MICCAI 2023 UNSURE workshop.
+This repository contains the official implementation for the paper [Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images] (https://link.springer.com/chapter/10.1007/978-3-031-44336-7_12), which was accepted to the MICCAI 2023 UNSURE workshop.
 
 The main results of the paper:
 ![results](images/table_results.png)
@@ -131,4 +131,19 @@ python bin/get_pipeline_predictions.py --patchcore_experiment_folder <patchcore_
 2. Compute anomaly segmentation metrics (anomaly detection peformance is the same as for PatchCore3D).
 ```shell
 python bin/calc_metrics_amcons.py --log_project project --log_group pipeline --saved_predictions_path <pipeline_preds_path> --no_sample_level_metrics <results_path> dataset --test_size 0.2 <preprocessed_ixi_path> <brats_path>
+```
+
+### Citing
+
+If you use the code in this repository, please cite
+
+```
+@inproceedings{frolova2023feature,
+  title={Feature-Based Pipeline for Improving Unsupervised Anomaly Segmentation on Medical Images},
+  author={Frolova, Daria and Katrutsa, Aleksandr and Oseledets, Ivan},
+  booktitle={International Workshop on Uncertainty for Safe Utilization of Machine Learning in Medical Imaging},
+  pages={115--125},
+  year={2023},
+  organization={Springer}
+}
 ```
